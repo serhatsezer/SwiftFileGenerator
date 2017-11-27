@@ -24,4 +24,5 @@ class Product0 {
 }
 ```
 **File output will be something like this below**
+
 ![alt text](https://raw.githubusercontent.com/serhatsezer/SwiftFileGenerator/master/output.png "Logo Title Text 1")
