@@ -1,5 +1,5 @@
 # SwiftFileGenerator
-This little python script generate Swift files with class declaration.
+This little python script generates Swift files with class and method declarations.
 
 ## Usage
 Simply run this python file on terminal using python command or call related method in your class.
