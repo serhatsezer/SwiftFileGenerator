@@ -12,6 +12,7 @@ def generateClass(name):
         f.close()
 
 def generate(amount):
-  for x in range(0, 2500):
-  generateClass("Class%d" % (x))
+  for x in range(0, amount):
+        generateClass("Class%d" % (x))
+        
                            
