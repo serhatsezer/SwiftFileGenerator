@@ -11,8 +11,8 @@ def generateClass(name):
         f.write("}")
         f.close()
 
-def generate(amount):
+def generate(class_name_prefix, amount):
   for x in range(0, amount):
-        generateClass("Class%d" % (x))
+        generateClass(class_name_prefix + "%d" % (x))
         
                            
