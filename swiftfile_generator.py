@@ -13,10 +13,9 @@ class SwiftFile:
         f.write("}")
         f.close()
 
-    @staticMethod    
     def generate(class_name_prefix, amount):
         for x in range(0, amount):
             generateClass(class_name_prefix + "%d" % (x))
 
 
-SwiftFile.generate("sample", 1)
+SwiftFile().generate("sample", 1)
