@@ -12,9 +12,13 @@ class SwiftFile:
         f.write("}\n")
         f.write("}")
         f.close()
-   
-   def anoter_method():
+    
+    # I'm not sure what im doing
+    def anoter_method():
         print("hello")
+
+    def yet_another():
+        print("yet another")
 
     def some_mandotry_method():
         print("hey im important")
