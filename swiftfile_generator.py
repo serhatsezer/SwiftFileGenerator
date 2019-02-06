@@ -12,8 +12,12 @@ class SwiftFile:
         f.write("}\n")
         f.write("}")
         f.close()
-    def anoter_method():
+   
+   def anoter_method():
         print("hello")
+
+    def some_mandotry_method():
+        print("hey im important")
 
     def generate(class_name_prefix, amount):
         for x in range(0, amount):
